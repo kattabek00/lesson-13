@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;700&family=Montserrat:wght@500;700;800&family=Poppins&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;700&family=Montserrat:wght@500;700;800&family=Poppins&family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px auto;
+    width: 940px;
+    height: 400px;
+}
+
+table {
+
+    border: 1px solid #E1E5EE;
+    width: 940px;
+    height: 400px;
+}
+
+th,
+td {
+    border: 1px solid #E1E5EE;
+}
+
+.class {
+    padding: 15px 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #95A1BB;
+}
+
+.class1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+
+.class2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #363940;
+    padding: 15px 20px;
+}
+
+.class3 {
+    padding: 37px 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6E38F7;
+
+}
+
+.paragraf {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #363940;
+    margin-bottom: 20px;
+}
+
+.paragraf1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.but1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6E38F7;
+    padding: 8px 20px;
+    background-color: white;
+    border: 1px solid #6E38F7;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(209, 209, 213);
+}
+
+.but1:hover {
+    background: #6E38F7;
+    border-radius: 4px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid #6E38F7;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: 2px 2px 5px blue;
+}
